@@ -35,7 +35,7 @@ include 'kon.php';
             $ambil = $koneksi->query("select * from tb_barang");
             while ($barang = $ambil->fetch_array()) {
 
-
+                // Tes COmmit
             ?>
 
                 <tbody>
